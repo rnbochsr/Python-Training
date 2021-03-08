@@ -9,7 +9,7 @@ def banner(ip, port)
     print(str(s.recv(1024)).strip('b'))
 
 def main() 
-    ip = inpput("Please enter the IP: ")
+    ip = input("Please enter the IP: ")
     port = str(input("Please input the port: "))
     banner(ip, port)
 
