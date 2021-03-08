@@ -1,8 +1,8 @@
 #! /usr/bin/python3
 
-import nmap
+import NMAP_scanner()
 
-scanner = nmap.PortScanner()
+scanner = NMAP_scanner.PortScanner()
 
 print("Welcome, this is a simple nmap automation tool")
 print("<------------------------------------------------->")
